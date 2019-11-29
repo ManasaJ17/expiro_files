@@ -1,0 +1,5 @@
+User - user_name, password, email_id, contact, address, (salt, access_token, refresh_token, expiry_token)
+Product - product_id/barcode, product_name, price, quantity, (stock_availability - Y/N value updated depending on the quantity - optional)
+Orders - order_id, (user_name, product)
+
+User and Orders - OneToMany relationship - One User can have multiple orders.
